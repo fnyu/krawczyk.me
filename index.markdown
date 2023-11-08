@@ -3,4 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
+display_work: true
+display_social_media: true
 ---
+
+I am an IT Consultant with over 10 years of experience in Software Engineering, Platform Engineering, Systems Architecture and IT Security.

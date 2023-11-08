@@ -18,19 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Jakub Krawczyk - Profile Page
+email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username: jekyll
+url: "https://krawczyk.me/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-theme: minima
 remote_theme: fnyu/jekyll-profile-page@main
 plugins:
   - jekyll-feed
@@ -43,23 +37,18 @@ cover_photo:
 profile_picture: assets/images/photo.png
 
 author:
-  name: "Your name"
-  occupation: "Your occupation"
+  name: "Jakub Krawczyk"
+  occupation: "IT Consultant"
   # Location is optional
   location:
-    name: "City, Country"
+    name: "Warsaw, Poland"
     # If you don't provide the link, only text will be printed
-    url: "https://<optional link to maps>/"
-
-# Action button is optional
-action_button:
-  label: "Call to action button"
-  icon: "fas fa-briefcase"
+    url: "https://maps.app.goo.gl/EfrtUJaV79nAupqY8"
 
 # Workplaces are optional
 work:
-  - name: "Workplace"
-    url: "https://<workplace url>"
+  - name: "Self-Employed"
+    url: "#"
 
 # Projects are optional
 projects:
@@ -69,7 +58,7 @@ projects:
 # Social media are optional
 # You can use any icon from Font Awesome Brands Pack
 social:
-  - url: "https://github.com/<username>"
+  - url: "https://github.com/fnyu"
     title: "GitHub Profile Page"
     icon: "fab fa-github"
 # Exclude from processing.
