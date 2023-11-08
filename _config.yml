@@ -34,6 +34,44 @@ theme: minima
 remote_theme: fnyu/jekyll-profile-page@main
 plugins:
   - jekyll-feed
+
+# Theme-specific settings
+cover_photo:
+  url: assets/images/cover.jpg
+  alt: "Mountains covered with snow and dark sky in the background"
+
+profile_picture: assets/images/photo.png
+
+author:
+  name: "Your name"
+  occupation: "Your occupation"
+  # Location is optional
+  location:
+    name: "City, Country"
+    # If you don't provide the link, only text will be printed
+    url: "https://<optional link to maps>/"
+
+# Action button is optional
+action_button:
+  label: "Call to action button"
+  icon: "fas fa-briefcase"
+
+# Workplaces are optional
+work:
+  - name: "Workplace"
+    url: "https://<workplace url>"
+
+# Projects are optional
+projects:
+  - name: "This Jekyll theme"
+    url: "https://github.com/fnyu/jekyll-profile-page"
+
+# Social media are optional
+# You can use any icon from Font Awesome Brands Pack
+social:
+  - url: "https://github.com/<username>"
+    title: "GitHub Profile Page"
+    icon: "fab fa-github"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
