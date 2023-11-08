@@ -8,4 +8,8 @@ display_social_media: true
 display_profile_picture: true
 ---
 
-I am an IT Consultant with over 10 years of experience in Software Engineering, Platform Engineering, Systems Architecture and IT Security.
+I am an IT Consultant with over 11 years of professional experience in Software Engineering, Platform Engineering, Systems Architecture and IT Security.
+
+If you would like to contact me, send an e-mail to any address in the
+domain of this website.
+
